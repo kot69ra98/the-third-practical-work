@@ -173,6 +173,7 @@ body {
 }
 
 .header__list{
+  align-items: center;
   flex-wrap: wrap;
 	margin-right: 86px;
 	gap: 85px;
@@ -411,6 +412,10 @@ body {
   justify-content: space-between;
 }
 
+.left-block-mobile{
+  display: none;
+}
+
 .card{
   padding: 65px 0 65px 298px;
   border: 1px solid var(--light-gray);
@@ -609,6 +614,9 @@ body {
 
 .footer__left-block{
   flex-basis: 20.5%;
+}
+
+.footer__center-block{
 }
 
 .footer__block{
